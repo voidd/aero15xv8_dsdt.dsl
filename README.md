@@ -1,1 +1,1 @@
-# aero15xv8_dsdt.dsl
+# aero15xv8_dstd.dsl
