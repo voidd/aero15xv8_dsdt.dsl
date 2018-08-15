@@ -1,0 +1,2572 @@
+dstd.dsl    299:     Name (TOPM, 0x00000000)
+Optimize 1039 -                          ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl   4227:                 CreateWordField (BUF0, \_SB.PCI0._Y00._MAX, PBMX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                       NamePath optimized ^  (^_Y00._MAX)
+
+dstd.dsl   4229:                 CreateWordField (BUF0, \_SB.PCI0._Y00._LEN, PBLN)  // _LEN: Length
+Optimize 1075 -                                       NamePath optimized ^  (^_Y00._LEN)
+
+dstd.dsl   4233:                     CreateDWordField (BUF0, \_SB.PCI0._Y01._LEN, C0LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y01._LEN)
+
+dstd.dsl   4239:                     CreateBitField (BUF0, \_SB.PCI0._Y01._RW, C0RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y01._RW_)
+
+dstd.dsl   4245:                     CreateDWordField (BUF0, \_SB.PCI0._Y02._LEN, C4LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y02._LEN)
+
+dstd.dsl   4251:                     CreateBitField (BUF0, \_SB.PCI0._Y02._RW, C4RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y02._RW_)
+
+dstd.dsl   4257:                     CreateDWordField (BUF0, \_SB.PCI0._Y03._LEN, C8LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y03._LEN)
+
+dstd.dsl   4263:                     CreateBitField (BUF0, \_SB.PCI0._Y03._RW, C8RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y03._RW_)
+
+dstd.dsl   4269:                     CreateDWordField (BUF0, \_SB.PCI0._Y04._LEN, CCLN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y04._LEN)
+
+dstd.dsl   4275:                     CreateBitField (BUF0, \_SB.PCI0._Y04._RW, CCRW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y04._RW_)
+
+dstd.dsl   4281:                     CreateDWordField (BUF0, \_SB.PCI0._Y05._LEN, D0LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y05._LEN)
+
+dstd.dsl   4287:                     CreateBitField (BUF0, \_SB.PCI0._Y05._RW, D0RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y05._RW_)
+
+dstd.dsl   4293:                     CreateDWordField (BUF0, \_SB.PCI0._Y06._LEN, D4LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y06._LEN)
+
+dstd.dsl   4299:                     CreateBitField (BUF0, \_SB.PCI0._Y06._RW, D4RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y06._RW_)
+
+dstd.dsl   4305:                     CreateDWordField (BUF0, \_SB.PCI0._Y07._LEN, D8LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y07._LEN)
+
+dstd.dsl   4311:                     CreateBitField (BUF0, \_SB.PCI0._Y07._RW, D8RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y07._RW_)
+
+dstd.dsl   4317:                     CreateDWordField (BUF0, \_SB.PCI0._Y08._LEN, DCLN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y08._LEN)
+
+dstd.dsl   4323:                     CreateBitField (BUF0, \_SB.PCI0._Y08._RW, DCRW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y08._RW_)
+
+dstd.dsl   4329:                     CreateDWordField (BUF0, \_SB.PCI0._Y09._LEN, E0LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y09._LEN)
+
+dstd.dsl   4335:                     CreateBitField (BUF0, \_SB.PCI0._Y09._RW, E0RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y09._RW_)
+
+dstd.dsl   4341:                     CreateDWordField (BUF0, \_SB.PCI0._Y0A._LEN, E4LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0A._LEN)
+
+dstd.dsl   4347:                     CreateBitField (BUF0, \_SB.PCI0._Y0A._RW, E4RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y0A._RW_)
+
+dstd.dsl   4353:                     CreateDWordField (BUF0, \_SB.PCI0._Y0B._LEN, E8LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0B._LEN)
+
+dstd.dsl   4359:                     CreateBitField (BUF0, \_SB.PCI0._Y0B._RW, E8RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y0B._RW_)
+
+dstd.dsl   4365:                     CreateDWordField (BUF0, \_SB.PCI0._Y0C._LEN, ECLN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0C._LEN)
+
+dstd.dsl   4371:                     CreateBitField (BUF0, \_SB.PCI0._Y0C._RW, ECRW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y0C._RW_)
+
+dstd.dsl   4377:                     CreateDWordField (BUF0, \_SB.PCI0._Y0D._LEN, F0LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0D._LEN)
+
+dstd.dsl   4383:                     CreateBitField (BUF0, \_SB.PCI0._Y0D._RW, F0RW)  // _RW_: Read-Write Status
+Optimize 1075 -                                         NamePath optimized ^  (^_Y0D._RW_)
+
+dstd.dsl   4387:                 CreateDWordField (BUF0, \_SB.PCI0._Y0E._MIN, M1MN)  // _MIN: Minimum Base Address
+Optimize 1075 -                                        NamePath optimized ^  (^_Y0E._MIN)
+
+dstd.dsl   4388:                 CreateDWordField (BUF0, \_SB.PCI0._Y0E._MAX, M1MX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                        NamePath optimized ^  (^_Y0E._MAX)
+
+dstd.dsl   4389:                 CreateDWordField (BUF0, \_SB.PCI0._Y0E._LEN, M1LN)  // _LEN: Length
+Optimize 1075 -                                        NamePath optimized ^  (^_Y0E._LEN)
+
+dstd.dsl   4395:                     CreateQWordField (BUF0, \_SB.PCI0._Y0F._LEN, MSLN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0F._LEN)
+
+dstd.dsl   4400:                     CreateQWordField (BUF0, \_SB.PCI0._Y0F._LEN, M2LN)  // _LEN: Length
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0F._LEN)
+
+dstd.dsl   4401:                     CreateQWordField (BUF0, \_SB.PCI0._Y0F._MIN, M2MN)  // _MIN: Minimum Base Address
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0F._MIN)
+
+dstd.dsl   4402:                     CreateQWordField (BUF0, \_SB.PCI0._Y0F._MAX, M2MX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                            NamePath optimized ^  (^_Y0F._MAX)
+
+dstd.dsl   4516:                 Method (NPTS, 1, NotSerialized)
+Remark   2146 -                            ^ Method Argument is never used (Arg0)
+
+dstd.dsl   4534:                 Method (NWAK, 1, NotSerialized)
+Remark   2146 -                            ^ Method Argument is never used (Arg0)
+
+dstd.dsl   4613:                 Method (SPTS, 1, NotSerialized)
+Remark   2146 -                            ^ Method Argument is never used (Arg0)
+
+dstd.dsl   4619:                 Method (SWAK, 1, NotSerialized)
+Remark   2146 -                            ^ Method Argument is never used (Arg0)
+
+dstd.dsl   4698:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   4773:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   4936:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   5011:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   5174:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   5249:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   5412:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   5487:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   5650:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   5725:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   5888:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   5963:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   6126:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   6201:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   6364:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   6439:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   6602:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   6677:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   6840:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   6915:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   7078:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   7153:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   7316:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   7391:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   7554:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   7629:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   7792:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   7867:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   8030:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   8105:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   8268:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   8343:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   8506:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   8581:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   8744:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   8819:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   8982:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   9057:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   9220:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   9295:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   9458:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   9533:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   9696:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl   9771:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl   9934:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl  10009:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl  10172:                 Method (L23D, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (L23D)
+
+dstd.dsl  10247:                                 CreateBitField (OPTS, 0x04, FUN4)
+Remark   2089 -                                       Object is not referenced ^  (Name [FUN4] is within a method [_DSM])
+
+dstd.dsl  10853:                 CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y10._BAS, MBR0)  // _BAS: Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y10._BAS)
+
+dstd.dsl  10855:                 CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y11._BAS, DBR0)  // _BAS: Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y11._BAS)
+
+dstd.dsl  10857:                 CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y12._BAS, EBR0)  // _BAS: Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y12._BAS)
+
+dstd.dsl  10859:                 CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y13._BAS, XBR0)  // _BAS: Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y13._BAS)
+
+dstd.dsl  10861:                 CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y13._LEN, XSZ0)  // _LEN: Length
+Optimize 1075 -                                             NamePath optimized ^  (^_Y13._LEN)
+
+dstd.dsl  10865:                     CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y14._BAS, HBAS)  // _BAS: Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (^_Y14._BAS)
+
+dstd.dsl  10866:                     CreateDWordField (BUF0, \_SB.PCI0.PDRC._Y14._LEN, HLEN)  // _LEN: Length
+Optimize 1075 -                                                 NamePath optimized ^  (^_Y14._LEN)
+
+dstd.dsl  10889:             Method (PCID, 4, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg3)
+
+dstd.dsl  10958:                     CreateWordField (IIC0, \_SB.PCI0.IICB._Y15._ADR, DAD0)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y15._ADR)
+
+dstd.dsl  10971:                     CreateWordField (IIC1, \_SB.PCI0.IICB._Y16._ADR, DAD1)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y16._ADR)
+
+dstd.dsl  10984:                     CreateWordField (IIC2, \_SB.PCI0.IICB._Y17._ADR, DAD2)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y17._ADR)
+
+dstd.dsl  10997:                     CreateWordField (IIC3, \_SB.PCI0.IICB._Y18._ADR, DAD3)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y18._ADR)
+
+dstd.dsl  11010:                     CreateWordField (IIC4, \_SB.PCI0.IICB._Y19._ADR, DAD4)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y19._ADR)
+
+dstd.dsl  11023:                     CreateWordField (IIC5, \_SB.PCI0.IICB._Y1A._ADR, DAD5)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y1A._ADR)
+
+dstd.dsl  11044:             CreateDWordField (INTR, \_SB.PCI0.INTB._Y1B._INT, NUMI)  // _INT: Interrupts
+Optimize 1075 -                                         NamePath optimized ^  (_Y1B._INT)
+
+dstd.dsl  11046:             CreateBitField (INTR, \_SB.PCI0.INTB._Y1B._HE, LEVI)  // _HE_: High-Edge
+Optimize 1075 -                                      NamePath optimized ^  (_Y1B._HE_)
+
+dstd.dsl  11048:             CreateBitField (INTR, \_SB.PCI0.INTB._Y1B._LL, ACTI)  // _LL_: Low Level
+Optimize 1075 -                                      NamePath optimized ^  (_Y1B._LL_)
+
+dstd.dsl  12561:             Switch (Arg0)
+Warning  3124 -                        ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  12579:             Switch (Arg0)
+Warning  3124 -                        ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  13910:         Method (THDS, 1, Serialized)
+Warning  3115 -                    ^ Not all control paths return a value (THDS)
+
+dstd.dsl  14036:                 CreateWordField (BUF0, \_SB.PCI0.PRRE._CRS._Y1C._MIN, AMIN)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y1C._MIN)
+
+dstd.dsl  14037:                 CreateWordField (BUF0, \_SB.PCI0.PRRE._CRS._Y1C._MAX, AMAX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y1C._MAX)
+
+dstd.dsl  14040:                 CreateDWordField (BUF0, \_SB.PCI0.PRRE._CRS._Y1D._BAS, GBAS)  // _BAS: Base Address
+Optimize 1075 -                                                  NamePath optimized ^  (_Y1D._BAS)
+
+dstd.dsl  14041:                 CreateDWordField (BUF0, \_SB.PCI0.PRRE._CRS._Y1D._LEN, GLEN)  // _LEN: Length
+Optimize 1075 -                                                  NamePath optimized ^  (_Y1D._LEN)
+
+dstd.dsl  14060:                 CreateDWordField (BUF1, \_SB.PCI0.PRRE._CRS._Y1E._BAS, HDBA)  // _BAS: Base Address
+Optimize 1075 -                                                  NamePath optimized ^  (_Y1E._BAS)
+
+dstd.dsl  14075:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  14117:                 CreateWordField (BUF0, \_SB.PCI0.IOTR._CRS._Y1F._MIN, AMI0)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y1F._MIN)
+
+dstd.dsl  14118:                 CreateWordField (BUF0, \_SB.PCI0.IOTR._CRS._Y1F._MAX, AMA0)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y1F._MAX)
+
+dstd.dsl  14119:                 CreateWordField (BUF1, \_SB.PCI0.IOTR._CRS._Y20._MIN, AMI1)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y20._MIN)
+
+dstd.dsl  14120:                 CreateWordField (BUF1, \_SB.PCI0.IOTR._CRS._Y20._MAX, AMA1)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y20._MAX)
+
+dstd.dsl  14121:                 CreateWordField (BUF2, \_SB.PCI0.IOTR._CRS._Y21._MIN, AMI2)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y21._MIN)
+
+dstd.dsl  14122:                 CreateWordField (BUF2, \_SB.PCI0.IOTR._CRS._Y21._MAX, AMA2)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y21._MAX)
+
+dstd.dsl  14123:                 CreateWordField (BUF3, \_SB.PCI0.IOTR._CRS._Y22._MIN, AMI3)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y22._MIN)
+
+dstd.dsl  14124:                 CreateWordField (BUF3, \_SB.PCI0.IOTR._CRS._Y22._MAX, AMA3)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                 NamePath optimized ^  (_Y22._MAX)
+
+dstd.dsl  14729:             Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                        ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  14742:             Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                        ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  14768:                 Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                            ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  14782:                 Method (_PS2, 0, Serialized)  // _PS2: Power State 2
+Warning  3115 -                            ^ Not all control paths return a value (_PS2)
+
+dstd.dsl  14796:                 Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                            ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  15188:             Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                        ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  15222:             Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                        ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  15263:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15346:                 CreateQWordField (NBUF, \_SB.PCI0.HDAS._Y23._MIN, NBAS)  // _MIN: Minimum Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y23._MIN)
+
+dstd.dsl  15347:                 CreateQWordField (NBUF, \_SB.PCI0.HDAS._Y23._MAX, NMAS)  // _MAX: Maximum Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y23._MAX)
+
+dstd.dsl  15348:                 CreateQWordField (NBUF, \_SB.PCI0.HDAS._Y23._LEN, NLEN)  // _LEN: Length
+Optimize 1075 -                                             NamePath optimized ^  (^_Y23._LEN)
+
+dstd.dsl  15352:                 CreateDWordField (DBUF, \_SB.PCI0.HDAS._Y24._BAS, HDBA)  // _BAS: Base Address
+Optimize 1075 -                                             NamePath optimized ^  (^_Y24._BAS)
+
+dstd.dsl  15359:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15559:                             Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15628:                             Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15697:                             Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15766:                             Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  15809:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3115 -                        ^ Not all control paths return a value (_DSM)
+
+dstd.dsl  15809:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3107 -                        ^ Reserved method must return a value (Integer/String/Buffer/Package/Reference required for _DSM)
+
+dstd.dsl  15941:                 Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                            ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  15952:                 Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                            ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  16015:                 Method (RPON, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPON)
+
+dstd.dsl  16031:                 Method (RPOF, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPOF)
+
+dstd.dsl  16145:                 Method (CNRS, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (CNRS)
+
+dstd.dsl  16253:                 Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                            ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  16264:                 Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                            ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  16327:                 Method (RPON, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPON)
+
+dstd.dsl  16343:                 Method (RPOF, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPOF)
+
+dstd.dsl  16457:                 Method (CNRS, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (CNRS)
+
+dstd.dsl  16565:                 Method (_PS3, 0, Serialized)  // _PS3: Power State 3
+Warning  3115 -                            ^ Not all control paths return a value (_PS3)
+
+dstd.dsl  16576:                 Method (_PS0, 0, Serialized)  // _PS0: Power State 0
+Warning  3115 -                            ^ Not all control paths return a value (_PS0)
+
+dstd.dsl  16639:                 Method (RPON, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPON)
+
+dstd.dsl  16655:                 Method (RPOF, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (RPOF)
+
+dstd.dsl  16769:                 Method (CNRS, 0, Serialized)
+Warning  3115 -                            ^ Not all control paths return a value (CNRS)
+
+dstd.dsl  16893:                 Switch (Arg0)
+Warning  3124 -                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  16973:                 Switch (Arg0)
+Warning  3124 -                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  17051:                 Switch (Arg0)
+Warning  3124 -                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  17228:             Method (RSTD, 5, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg1)
+
+dstd.dsl  17249:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  17259:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  17269:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  17293:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  17310:             Method (D3AS, 3, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  17310:             Method (D3AS, 3, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg2)
+
+dstd.dsl  17312:                 Switch (Arg1)
+Warning  3124 -                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  17476:                 Name (_PR0, Package (0x01)  // _PR0: Power Resources for D0
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17480:                 Name (_PR3, Package (0x01)  // _PR3: Power Resources for D3hot
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17525:                 Name (_PR0, Package (0x01)  // _PR0: Power Resources for D0
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17529:                 Name (_PR3, Package (0x01)  // _PR3: Power Resources for D3hot
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17574:                 Name (_PR0, Package (0x01)  // _PR0: Power Resources for D0
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17578:                 Name (_PR3, Package (0x01)  // _PR3: Power Resources for D3hot
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  17642:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  17670:                 CreateDWordField (RBUF, \_SB.PCI0.GPI0._CRS._Y25._BAS, COM0)  // _BAS: Base Address
+Optimize 1075 -                                                  NamePath optimized ^  (_Y25._BAS)
+
+dstd.dsl  17671:                 CreateDWordField (RBUF, \_SB.PCI0.GPI0._CRS._Y26._BAS, COM1)  // _BAS: Base Address
+Optimize 1075 -                                                  NamePath optimized ^  (_Y26._BAS)
+
+dstd.dsl  17672:                 CreateDWordField (RBUF, \_SB.PCI0.GPI0._CRS._Y27._INT, IRQN)  // _INT: Interrupts
+Optimize 1075 -                                                  NamePath optimized ^  (_Y27._INT)
+
+dstd.dsl  17678:                     CreateDWordField (RBUF, \_SB.PCI0.GPI0._CRS._Y28._BAS, CMH3)  // _BAS: Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (_Y28._BAS)
+
+dstd.dsl  17680:                     CreateDWordField (CBUF, \_SB.PCI0.GPI0._CRS._Y29._BAS, CMH4)  // _BAS: Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (_Y29._BAS)
+
+dstd.dsl  17686:                     CreateDWordField (RBUF, \_SB.PCI0.GPI0._CRS._Y28._BAS, CML4)  // _BAS: Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (_Y28._BAS)
+
+dstd.dsl  17776:             CreateDWordField (RBUF, \_SB.PCI0.LCRS._Y2A._BAS, BVAL)  // _BAS: Base Address
+Optimize 1075 -                                         NamePath optimized ^  (_Y2A._BAS)
+
+dstd.dsl  17777:             CreateDWordField (RBUF, \_SB.PCI0.LCRS._Y2A._LEN, BLEN)  // _LEN: Length
+Optimize 1075 -                                         NamePath optimized ^  (_Y2A._LEN)
+
+dstd.dsl  17778:             CreateDWordField (RBUF, \_SB.PCI0.LCRS._Y2B._INT, IRQN)  // _INT: Interrupts
+Optimize 1075 -                                         NamePath optimized ^  (_Y2B._INT)
+
+dstd.dsl  17824:                 CreateDWordField (BUFF, \_SB.PCI0.SIRC.ADDB._Y2C._BAS, ADDR)  // _BAS: Base Address
+Optimize 1075 -                                                  NamePath optimized ^  (_Y2C._BAS)
+
+dstd.dsl  17825:                 CreateDWordField (BUFF, \_SB.PCI0.SIRC.ADDB._Y2C._LEN, LENG)  // _LEN: Length
+Optimize 1075 -                                                  NamePath optimized ^  (_Y2C._LEN)
+
+dstd.dsl  18710:                                 Switch (EMDS)
+Warning  3124 -                                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  18760:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  18995:             Name (_PRR, Package (0x01)  // _PRR: Power Resource for Reset
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  19096:                     CreateDWordField (BUF0, \_SB.PCI0.LPCB.HPET._Y2D._BAS, HPT0)  // _BAS: Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (^_Y2D._BAS)
+
+dstd.dsl  19371:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  19382:                 CreateWordField (RBUF, \_SB.PCI0.LPCB.CWDT._CRS._Y2E._MIN, OMIN)  // _MIN: Minimum Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (_Y2E._MIN)
+
+dstd.dsl  19383:                 CreateWordField (RBUF, \_SB.PCI0.LPCB.CWDT._CRS._Y2E._MAX, OMAX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                                      NamePath optimized ^  (_Y2E._MAX)
+
+dstd.dsl  20336:         Method (XTBT, 2, Serialized)
+Warning  3115 -                    ^ Not all control paths return a value (XTBT)
+
+dstd.dsl  20353:                 Local0 = Zero
+Warning  3144 -                      ^ Method Local is set but never used (Local0)
+
+dstd.dsl  20595:             Method (WMTF, 3, NotSerialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  20595:             Method (WMTF, 3, NotSerialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg1)
+
+dstd.dsl  21493:     Method (SPL1, 0, Serialized)
+Warning  3115 -                ^ Not all control paths return a value (SPL1)
+
+dstd.dsl  21531:     Method (GUAM, 1, Serialized)
+Warning  3115 -                ^ Not all control paths return a value (GUAM)
+
+dstd.dsl  21655:             If (CondRefOf (\_OSI, Local0))
+Warning  3144 -     Method Local is set but never used ^  (Local0)
+
+dstd.dsl  21915:             Name (_MLS, Package (0x01)  // _MLS: Multiple Language String
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  21935:                 CreateQWordField (RBUF, \_SB.EPC._Y2F._MIN, EMIN)  // _MIN: Minimum Base Address
+Optimize 1075 -                                       NamePath optimized ^  (^_Y2F._MIN)
+
+dstd.dsl  21936:                 CreateQWordField (RBUF, \_SB.EPC._Y2F._MAX, EMAX)  // _MAX: Maximum Base Address
+Optimize 1075 -                                       NamePath optimized ^  (^_Y2F._MAX)
+
+dstd.dsl  21937:                 CreateQWordField (RBUF, \_SB.EPC._Y2F._LEN, ELEN)  // _LEN: Length
+Optimize 1075 -                                       NamePath optimized ^  (^_Y2F._LEN)
+
+dstd.dsl  21990:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  22012:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  22028:                             Name (PBUF, Package (0x08)
+Remark   2063 -                                                     ^ Initializer list shorter than declared package length
+
+dstd.dsl  22048:                             Name (CBUF, Package (0x01)
+Optimize 1039 -         Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  22167:     Method (RRIO, 4, Serialized)
+Remark   2146 -                ^ Method Argument is never used (Arg3)
+
+dstd.dsl  22376:     Method (RDMA, 3, NotSerialized)
+Remark   2146 -                ^ Method Argument is never used (Arg0)
+
+dstd.dsl  22376:     Method (RDMA, 3, NotSerialized)
+Remark   2146 -                ^ Method Argument is never used (Arg1)
+
+dstd.dsl  22376:     Method (RDMA, 3, NotSerialized)
+Remark   2146 -                ^ Method Argument is never used (Arg2)
+
+dstd.dsl  23882:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  23973:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  23984:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  23991:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  24614:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  24705:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  24716:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  24723:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  25345:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  25436:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  25447:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  25454:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  26076:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  26167:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  26178:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  26185:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  26809:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  26900:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  26911:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  26918:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  27541:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  27632:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  27643:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  27650:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  28272:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  28363:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  28374:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  28381:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  29003:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  29094:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  29105:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  29112:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  29736:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  29827:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  29838:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  29845:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  30468:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  30559:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  30570:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  30577:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  31199:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  31290:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  31301:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  31308:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  31930:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  32021:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  32032:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  32039:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  32663:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  32754:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  32765:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  32772:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  33395:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  33486:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  33497:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  33504:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  34126:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  34217:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  34228:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  34235:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  34857:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  34948:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  34959:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  34966:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  35588:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  35679:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  35690:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  35697:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  36319:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  36410:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  36421:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  36428:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  37050:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  37141:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  37152:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  37159:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  37781:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  37872:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  37883:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  37890:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  37924:             Method (WMDE, 3, NotSerialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  37924:             Method (WMDE, 3, NotSerialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg2)
+
+dstd.dsl  37924:             Method (WMDE, 3, NotSerialized)
+Warning  3115 -                        ^ Not all control paths return a value (WMDE)
+
+dstd.dsl  38111:             Method (WMDE, 3, NotSerialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  38111:             Method (WMDE, 3, NotSerialized)
+Warning  3115 -                        ^ Not all control paths return a value (WMDE)
+
+dstd.dsl  38238:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38245:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38245:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38256:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38263:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38263:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38275:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38282:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38282:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38291:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38299:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38307:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38315:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38323:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38331:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38339:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38347:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38355:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38363:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38371:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38379:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38387:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38397:                 Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38411:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38418:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38418:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38429:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38436:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38436:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38453:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38462:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38469:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38469:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38524:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38533:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38540:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38540:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  38594:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38603:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38610:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38610:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  38664:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38673:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38680:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38680:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  38736:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38745:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38752:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38752:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  38807:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38816:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38823:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38823:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  38877:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38886:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38893:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38893:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  38947:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  38956:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  38963:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  38963:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39019:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39028:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39035:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39035:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39090:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39099:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39106:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39106:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39160:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39169:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39176:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39176:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39230:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39239:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39246:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39246:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39300:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39309:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39316:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39316:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39370:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39379:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39386:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39386:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39440:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39449:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39456:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39456:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39510:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39519:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39526:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39526:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39580:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39589:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39596:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39596:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39650:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39659:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39666:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39666:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39720:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39729:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39736:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39736:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39790:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  39799:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39806:             Return (Package (0x00){})
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39806:             Return (Package (0x00){})
+Remark   2095 -                                 ^ Effective AML package length is zero
+
+dstd.dsl  39858:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39866:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39866:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39879:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39887:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39887:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39900:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39908:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39908:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39921:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39929:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39929:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39942:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39950:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39950:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39963:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39971:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39971:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  39984:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  39992:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  39992:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40005:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40013:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40013:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40026:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40034:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40034:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40047:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40055:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40055:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40068:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40076:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40076:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40089:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40097:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40097:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40110:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40118:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40118:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40131:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40139:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40139:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40152:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40160:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40160:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  40173:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  40181:                 Return (Package (0x00){})
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  40181:                 Return (Package (0x00){})
+Remark   2095 -                                     ^ Effective AML package length is zero
+
+dstd.dsl  41154:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41182:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41210:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41238:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41266:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41294:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41322:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41350:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41378:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41406:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41434:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41462:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41490:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41518:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41546:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41574:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41602:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41630:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41658:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41686:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41714:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41742:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41770:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41798:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41826:                     Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  41879:                             Return (Package (0x00){})
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  41879:                             Return (Package (0x00){})
+Remark   2095 -            Effective AML package length is zero ^ 
+
+dstd.dsl  43458:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  43469:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  43532:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  43543:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  43606:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  43617:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  43680:                             Return (Package (0x01)
+Optimize 1039 -     Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  43691:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  43698:             Return (Package (0x01)
+Optimize 1039 -                                 ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  43805:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  43968:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44127:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44286:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44397:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44405:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44412:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44446:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44471:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44485:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44565:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44573:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44580:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44614:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44639:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44653:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44733:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44741:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44748:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44782:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44807:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44821:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44901:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44909:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  44916:                 Return (Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44950:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  44975:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  44989:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45083:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  45101:             Method (_DDN, 0, NotSerialized)  // _DDN: DOS Device Name
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45125:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  45234:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45271:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45564:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  45582:             Method (_DDN, 0, NotSerialized)  // _DDN: DOS Device Name
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45606:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  45715:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  45752:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46045:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  46063:             Method (_DDN, 0, NotSerialized)  // _DDN: DOS Device Name
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46087:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  46196:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46233:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46526:                     Return (Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  46544:             Method (_DDN, 0, NotSerialized)  // _DDN: DOS Device Name
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46568:                 Name (PLDB, Package (0x01)
+Optimize 1039 -                                         ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  46677:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46714:             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  46994:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  46998:             Name (_PLD, Package (0x01)  // _PLD: Physical Location of Device
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  47002:                     PLD_IgnoreColor        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47003:                     PLD_Red                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47004:                     PLD_Green              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47005:                     PLD_Blue               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47006:                     PLD_Width              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47007:                     PLD_Height             = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47008:                     PLD_UserVisible        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47009:                     PLD_Dock               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47010:                     PLD_Lid                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47015:                     PLD_GroupOrientation   = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47016:                     PLD_GroupToken         = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47017:                     PLD_GroupPosition      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47018:                     PLD_Bay                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47019:                     PLD_Ejectable          = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47020:                     PLD_EjectRequired      = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47021:                     PLD_CabinetNumber      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47022:                     PLD_CardCageNumber     = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47023:                     PLD_Reference          = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47024:                     PLD_Rotation           = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47025:                     PLD_Order              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47030:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47074:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47158:             Name (_DEP, Package (0x01)  // _DEP: Dependencies
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  47162:             Name (_PLD, Package (0x01)  // _PLD: Physical Location of Device
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  47166:                     PLD_IgnoreColor        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47167:                     PLD_Red                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47168:                     PLD_Green              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47169:                     PLD_Blue               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47170:                     PLD_Width              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47171:                     PLD_Height             = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47172:                     PLD_UserVisible        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47173:                     PLD_Dock               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47174:                     PLD_Lid                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47179:                     PLD_GroupOrientation   = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47180:                     PLD_GroupToken         = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47181:                     PLD_GroupPosition      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47182:                     PLD_Bay                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47183:                     PLD_Ejectable          = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47184:                     PLD_EjectRequired      = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47185:                     PLD_CabinetNumber      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47186:                     PLD_CardCageNumber     = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47187:                     PLD_Reference          = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47188:                     PLD_Rotation           = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47189:                     PLD_Order              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47194:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47218:             Method (SSDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47277:             Name (_PLD, Package (0x01)  // _PLD: Physical Location of Device
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  47281:                     PLD_IgnoreColor        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47282:                     PLD_Red                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47283:                     PLD_Green              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47284:                     PLD_Blue               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47285:                     PLD_Width              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47286:                     PLD_Height             = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47287:                     PLD_UserVisible        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47288:                     PLD_Dock               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47289:                     PLD_Lid                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47294:                     PLD_GroupOrientation   = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47295:                     PLD_GroupToken         = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47296:                     PLD_GroupPosition      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47297:                     PLD_Bay                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47298:                     PLD_Ejectable          = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47299:                     PLD_EjectRequired      = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  47300:                     PLD_CabinetNumber      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47301:                     PLD_CardCageNumber     = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47302:                     PLD_Reference          = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47303:                     PLD_Rotation           = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47304:                     PLD_Order              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  47309:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47333:             Method (CLDB, 0, NotSerialized)
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  47377:         Method (HIDD, 5, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg3)
+
+dstd.dsl  47404:         Method (TP7D, 6, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg3)
+
+dstd.dsl  47444:                     CreateWordField (IIC0, \_SB.PCI0.I2CM._Y30._ADR, DAD0)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y30._ADR)
+
+dstd.dsl  47445:                     CreateDWordField (IIC0, \_SB.PCI0.I2CM._Y30._SPE, DSP0)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y30._SPE)
+
+dstd.dsl  47459:                     CreateWordField (IIC1, \_SB.PCI0.I2CM._Y31._ADR, DAD1)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y31._ADR)
+
+dstd.dsl  47460:                     CreateDWordField (IIC1, \_SB.PCI0.I2CM._Y31._SPE, DSP1)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y31._SPE)
+
+dstd.dsl  47474:                     CreateWordField (IIC2, \_SB.PCI0.I2CM._Y32._ADR, DAD2)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y32._ADR)
+
+dstd.dsl  47475:                     CreateDWordField (IIC2, \_SB.PCI0.I2CM._Y32._SPE, DSP2)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y32._SPE)
+
+dstd.dsl  47489:                     CreateWordField (IIC3, \_SB.PCI0.I2CM._Y33._ADR, DAD3)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y33._ADR)
+
+dstd.dsl  47490:                     CreateDWordField (IIC3, \_SB.PCI0.I2CM._Y33._SPE, DSP3)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y33._SPE)
+
+dstd.dsl  47504:                     CreateWordField (IIC4, \_SB.PCI0.I2CM._Y34._ADR, DAD4)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y34._ADR)
+
+dstd.dsl  47505:                     CreateDWordField (IIC4, \_SB.PCI0.I2CM._Y34._SPE, DSP4)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y34._SPE)
+
+dstd.dsl  47519:                     CreateWordField (IIC5, \_SB.PCI0.I2CM._Y35._ADR, DAD5)  // _ADR: Address
+Optimize 1075 -                                                NamePath optimized ^  (_Y35._ADR)
+
+dstd.dsl  47520:                     CreateDWordField (IIC5, \_SB.PCI0.I2CM._Y35._SPE, DSP5)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y35._SPE)
+
+dstd.dsl  47547:                     CreateByteField (IIC7, \_SB.PCI0.SPIM._Y36._PHA, DPH7)  // _PHA: Clock Phase
+Optimize 1075 -                                                NamePath optimized ^  (_Y36._PHA)
+
+dstd.dsl  47548:                     CreateDWordField (IIC7, \_SB.PCI0.SPIM._Y36._SPE, DSP7)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y36._SPE)
+
+dstd.dsl  47563:                     CreateByteField (IIC8, \_SB.PCI0.SPIM._Y37._PHA, DPH8)  // _PHA: Clock Phase
+Optimize 1075 -                                                NamePath optimized ^  (_Y37._PHA)
+
+dstd.dsl  47564:                     CreateDWordField (IIC8, \_SB.PCI0.SPIM._Y37._SPE, DSP8)  // _SPE: Speed
+Optimize 1075 -                                                 NamePath optimized ^  (_Y37._SPE)
+
+dstd.dsl  47718:             CreateWordField (SBFB, \_SB.PCI0.I2C0.TPD0._Y38._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y38._ADR)
+
+dstd.dsl  47719:             CreateDWordField (SBFB, \_SB.PCI0.I2C0.TPD0._Y38._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y38._SPE)
+
+dstd.dsl  47721:             CreateDWordField (SBFI, \_SB.PCI0.I2C0.TPD0._Y39._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y39._INT)
+
+dstd.dsl  47722:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  47855:             CreateWordField (SBFB, \_SB.PCI0.I2C0.TPL1._Y3A._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y3A._ADR)
+
+dstd.dsl  47856:             CreateDWordField (SBFB, \_SB.PCI0.I2C0.TPL1._Y3A._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y3A._SPE)
+
+dstd.dsl  47858:             CreateDWordField (SBFI, \_SB.PCI0.I2C0.TPL1._Y3B._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y3B._INT)
+
+dstd.dsl  47859:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  48016:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3115 -                        ^ Not all control paths return a value (_DSM)
+
+dstd.dsl  48016:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3107 -                        ^ Reserved method must return a value (Integer/String/Buffer/Package/Reference required for _DSM)
+
+dstd.dsl  48048:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  48069:                 CreateDWordField (SBFI, \_SB.PCI0.I2C0.UCMX._CRS._Y3C._INT, INT1)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y3C._INT)
+
+dstd.dsl  48071:                 CreateDWordField (SBFI, \_SB.PCI0.I2C0.UCMX._CRS._Y3D._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y3D._INT)
+
+dstd.dsl  48073:                 CreateDWordField (SBFI, \_SB.PCI0.I2C0.UCMX._CRS._Y3E._INT, INT3)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y3E._INT)
+
+dstd.dsl  48075:                 CreateDWordField (SBFI, \_SB.PCI0.I2C0.UCMX._CRS._Y3F._INT, INT4)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y3F._INT)
+
+dstd.dsl  48134:             CreateWordField (SBFB, \_SB.PCI0.I2C1.TPD0._Y40._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y40._ADR)
+
+dstd.dsl  48135:             CreateDWordField (SBFB, \_SB.PCI0.I2C1.TPD0._Y40._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y40._SPE)
+
+dstd.dsl  48137:             CreateDWordField (SBFI, \_SB.PCI0.I2C1.TPD0._Y41._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y41._INT)
+
+dstd.dsl  48138:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  48271:             CreateWordField (SBFB, \_SB.PCI0.I2C1.TPL1._Y42._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y42._ADR)
+
+dstd.dsl  48272:             CreateDWordField (SBFB, \_SB.PCI0.I2C1.TPL1._Y42._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y42._SPE)
+
+dstd.dsl  48274:             CreateDWordField (SBFI, \_SB.PCI0.I2C1.TPL1._Y43._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y43._INT)
+
+dstd.dsl  48275:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  48432:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3115 -                        ^ Not all control paths return a value (_DSM)
+
+dstd.dsl  48432:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3107 -                        ^ Reserved method must return a value (Integer/String/Buffer/Package/Reference required for _DSM)
+
+dstd.dsl  48464:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  48485:                 CreateDWordField (SBFI, \_SB.PCI0.I2C1.UCMX._CRS._Y44._INT, INT1)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y44._INT)
+
+dstd.dsl  48487:                 CreateDWordField (SBFI, \_SB.PCI0.I2C1.UCMX._CRS._Y45._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y45._INT)
+
+dstd.dsl  48489:                 CreateDWordField (SBFI, \_SB.PCI0.I2C1.UCMX._CRS._Y46._INT, INT3)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y46._INT)
+
+dstd.dsl  48491:                 CreateDWordField (SBFI, \_SB.PCI0.I2C1.UCMX._CRS._Y47._INT, INT4)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y47._INT)
+
+dstd.dsl  48546:             CreateWordField (SBFB, \_SB.PCI0.I2C2.TPD0._Y48._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y48._ADR)
+
+dstd.dsl  48547:             CreateDWordField (SBFB, \_SB.PCI0.I2C2.TPD0._Y48._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y48._SPE)
+
+dstd.dsl  48549:             CreateDWordField (SBFI, \_SB.PCI0.I2C2.TPD0._Y49._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y49._INT)
+
+dstd.dsl  48550:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  48683:             CreateWordField (SBFB, \_SB.PCI0.I2C2.TPL1._Y4A._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y4A._ADR)
+
+dstd.dsl  48684:             CreateDWordField (SBFB, \_SB.PCI0.I2C2.TPL1._Y4A._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y4A._SPE)
+
+dstd.dsl  48686:             CreateDWordField (SBFI, \_SB.PCI0.I2C2.TPL1._Y4B._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y4B._INT)
+
+dstd.dsl  48687:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  48844:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3115 -                        ^ Not all control paths return a value (_DSM)
+
+dstd.dsl  48844:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3107 -                        ^ Reserved method must return a value (Integer/String/Buffer/Package/Reference required for _DSM)
+
+dstd.dsl  48876:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  48897:                 CreateDWordField (SBFI, \_SB.PCI0.I2C2.UCMX._CRS._Y4C._INT, INT1)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y4C._INT)
+
+dstd.dsl  48899:                 CreateDWordField (SBFI, \_SB.PCI0.I2C2.UCMX._CRS._Y4D._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y4D._INT)
+
+dstd.dsl  48901:                 CreateDWordField (SBFI, \_SB.PCI0.I2C2.UCMX._CRS._Y4E._INT, INT3)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y4E._INT)
+
+dstd.dsl  48903:                 CreateDWordField (SBFI, \_SB.PCI0.I2C2.UCMX._CRS._Y4F._INT, INT4)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y4F._INT)
+
+dstd.dsl  48958:             CreateWordField (SBFB, \_SB.PCI0.I2C3.TPD0._Y50._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y50._ADR)
+
+dstd.dsl  48959:             CreateDWordField (SBFB, \_SB.PCI0.I2C3.TPD0._Y50._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y50._SPE)
+
+dstd.dsl  48961:             CreateDWordField (SBFI, \_SB.PCI0.I2C3.TPD0._Y51._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y51._INT)
+
+dstd.dsl  48962:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  49095:             CreateWordField (SBFB, \_SB.PCI0.I2C3.TPL1._Y52._ADR, BADR)  // _ADR: Address
+Optimize 1075 -                                             NamePath optimized ^  (_Y52._ADR)
+
+dstd.dsl  49096:             CreateDWordField (SBFB, \_SB.PCI0.I2C3.TPL1._Y52._SPE, SPED)  // _SPE: Speed
+Optimize 1075 -                                              NamePath optimized ^  (_Y52._SPE)
+
+dstd.dsl  49098:             CreateDWordField (SBFI, \_SB.PCI0.I2C3.TPL1._Y53._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                              NamePath optimized ^  (_Y53._INT)
+
+dstd.dsl  49099:             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                        ^ Not all control paths return a value (_INI)
+
+dstd.dsl  49256:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3115 -                        ^ Not all control paths return a value (_DSM)
+
+dstd.dsl  49256:             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+Warning  3107 -                        ^ Reserved method must return a value (Integer/String/Buffer/Package/Reference required for _DSM)
+
+dstd.dsl  49288:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  49309:                 CreateDWordField (SBFI, \_SB.PCI0.I2C3.UCMX._CRS._Y54._INT, INT1)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y54._INT)
+
+dstd.dsl  49311:                 CreateDWordField (SBFI, \_SB.PCI0.I2C3.UCMX._CRS._Y55._INT, INT2)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y55._INT)
+
+dstd.dsl  49313:                 CreateDWordField (SBFI, \_SB.PCI0.I2C3.UCMX._CRS._Y56._INT, INT3)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y56._INT)
+
+dstd.dsl  49315:                 CreateDWordField (SBFI, \_SB.PCI0.I2C3.UCMX._CRS._Y57._INT, INT4)  // _INT: Interrupts
+Optimize 1075 -                                                       NamePath optimized ^  (_Y57._INT)
+
+dstd.dsl  49437:                     CreateDWordField (IBUF, \_SB.PCI0.SPI1.FPNT._CRS._Y58._INT, IPIN)  // _INT: Interrupts
+Optimize 1075 -                                                           NamePath optimized ^  (_Y58._INT)
+
+dstd.dsl  49439:                     CreateBitField (IBUF, \_SB.PCI0.SPI1.FPNT._CRS._Y58._LL, ILVL)  // _LL_: Low Level
+Optimize 1075 -                                                        NamePath optimized ^  (_Y58._LL_)
+
+dstd.dsl  49440:                     CreateBitField (IBUF, \_SB.PCI0.SPI1.FPNT._CRS._Y58._HE, ITRG)  // _HE_: High-Edge
+Optimize 1075 -                                                        NamePath optimized ^  (_Y58._HE_)
+
+dstd.dsl  49441:                     CreateField (GBUF, \_SB.PCI0.SPI1.FPNT._CRS._Y59._POL, 0x02, GLVL)  // _POL: Polarity
+Optimize 1075 -                                                      NamePath optimized ^  (_Y59._POL)
+
+dstd.dsl  49442:                     CreateBitField (GBUF, \_SB.PCI0.SPI1.FPNT._CRS._Y59._MOD, GTRG)  // _MOD: Mode
+Optimize 1075 -                                                         NamePath optimized ^  (_Y59._MOD)
+
+dstd.dsl  49630:                     CreateDWordField (IBUF, \_SB.PCI0.SPI2.FPNT._CRS._Y5A._INT, IPIN)  // _INT: Interrupts
+Optimize 1075 -                                                           NamePath optimized ^  (_Y5A._INT)
+
+dstd.dsl  49632:                     CreateBitField (IBUF, \_SB.PCI0.SPI2.FPNT._CRS._Y5A._LL, ILVL)  // _LL_: Low Level
+Optimize 1075 -                                                        NamePath optimized ^  (_Y5A._LL_)
+
+dstd.dsl  49633:                     CreateBitField (IBUF, \_SB.PCI0.SPI2.FPNT._CRS._Y5A._HE, ITRG)  // _HE_: High-Edge
+Optimize 1075 -                                                        NamePath optimized ^  (_Y5A._HE_)
+
+dstd.dsl  49634:                     CreateField (GBUF, \_SB.PCI0.SPI2.FPNT._CRS._Y5B._POL, 0x02, GLVL)  // _POL: Polarity
+Optimize 1075 -                                                      NamePath optimized ^  (_Y5B._POL)
+
+dstd.dsl  49635:                     CreateBitField (GBUF, \_SB.PCI0.SPI2.FPNT._CRS._Y5B._MOD, GTRG)  // _MOD: Mode
+Optimize 1075 -                                                         NamePath optimized ^  (_Y5B._MOD)
+
+dstd.dsl  49722:         Name (PKG, Package (0x01)
+Optimize 1039 -                                ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50403:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  50403:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  50593:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  50593:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  50624:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50662:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50691:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50730:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50775:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50801:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50830:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  50851:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51250:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  51250:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  51440:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  51440:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  51471:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51509:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51538:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51577:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51622:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51648:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51677:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  51698:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52097:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  52097:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  52287:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  52287:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  52318:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52356:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52385:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52424:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52469:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52495:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52524:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52545:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  52944:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  52944:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  53134:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  53134:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  53165:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53203:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53232:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53271:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53316:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53342:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53371:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53392:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  53791:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  53791:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  53981:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  53981:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  54012:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54050:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54079:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54118:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54163:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54189:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54218:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54239:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54638:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  54638:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  54828:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  54828:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  54859:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54897:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54926:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  54965:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55010:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55036:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55065:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55086:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55485:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  55485:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  55675:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  55675:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  55706:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55744:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55773:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55812:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55857:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55883:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55912:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  55933:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56332:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  56332:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  56522:                 Package (0x00){}
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (Zero)
+
+dstd.dsl  56522:                 Package (0x00){}
+Remark   2095 -                             ^ Effective AML package length is zero
+
+dstd.dsl  56553:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56591:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56620:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56659:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56704:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56730:                 Package (0x01)
+Optimize 1039 -                             ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56759:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56780:                         Package (0x01)
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  56814:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  56869:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  56924:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  56979:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  57034:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  57089:                 Method (_INI, 0, NotSerialized)  // _INI: Initialize
+Warning  3115 -                            ^ Not all control paths return a value (_INI)
+
+dstd.dsl  57165:         Method (ACCG, 2, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  57526:             Method (ECWT, 2, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg1)
+
+dstd.dsl  57616:             Method (ECMD, 1, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  57620:             Method (ECNT, 1, Serialized)
+Remark   2146 -                        ^ Method Argument is never used (Arg0)
+
+dstd.dsl  57726:         Method (BST1, 0, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  57738:         Method (BST2, 0, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  57811:                 CreateDWordField (CRST, \_SB.TPM._Y5C._BAS, MTFB)  // _BAS: Base Address
+Optimize 1075 -                                       NamePath optimized ^  (^_Y5C._BAS)
+
+dstd.dsl  57812:                 CreateDWordField (CRST, \_SB.TPM._Y5C._LEN, LTFB)  // _LEN: Length
+Optimize 1075 -                                       NamePath optimized ^  (^_Y5C._LEN)
+
+dstd.dsl  57815:                 CreateDWordField (CRST, \_SB.TPM._Y5D._BAS, MTFC)  // _BAS: Base Address
+Optimize 1075 -                                       NamePath optimized ^  (^_Y5D._BAS)
+
+dstd.dsl  57816:                 CreateDWordField (CRST, \_SB.TPM._Y5D._LEN, LTFC)  // _LEN: Length
+Optimize 1075 -                                       NamePath optimized ^  (^_Y5D._LEN)
+
+dstd.dsl  57825:                     CreateDWordField (CRSD, \_SB.TPM._Y5E._BAS, MTFE)  // _BAS: Base Address
+Optimize 1075 -                                           NamePath optimized ^  (^_Y5E._BAS)
+
+dstd.dsl  57826:                     CreateDWordField (CRSD, \_SB.TPM._Y5E._LEN, LTFE)  // _LEN: Length
+Optimize 1075 -                                           NamePath optimized ^  (^_Y5E._LEN)
+
+dstd.dsl  57833:                     CreateDWordField (CRSI, \_SB.TPM._Y5F._BAS, MTFD)  // _BAS: Base Address
+Optimize 1075 -                                           NamePath optimized ^  (^_Y5F._BAS)
+
+dstd.dsl  57834:                     CreateDWordField (CRSI, \_SB.TPM._Y5F._LEN, LTFD)  // _LEN: Length
+Optimize 1075 -                                           NamePath optimized ^  (^_Y5F._LEN)
+
+dstd.dsl  57841:                     CreateDWordField (CRSI, \_SB.TPM._Y5F._BAS, MTFF)  // _BAS: Base Address
+Optimize 1075 -                                           NamePath optimized ^  (^_Y5F._BAS)
+
+dstd.dsl  57900:         Method (STRT, 3, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg2)
+
+dstd.dsl  57955:         Method (CRYF, 3, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg2)
+
+dstd.dsl  57980:                         Return (Package (0x01)
+Optimize 1039 - Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  58266:         Method (WCAC, 1, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  58292:         Method (WQAC, 1, NotSerialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg0)
+
+dstd.dsl  58292:         Method (WQAC, 1, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  58304:         Method (WSAC, 2, NotSerialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg0)
+
+dstd.dsl  58304:         Method (WSAC, 2, NotSerialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg1)
+
+dstd.dsl  58304:         Method (WSAC, 2, NotSerialized)
+Remark   2120 -                    ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  58316:         Method (WMBD, 3, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg0)
+
+dstd.dsl  58316:         Method (WMBD, 3, Serialized)
+Warning  3115 -                    ^ Not all control paths return a value (WMBD)
+
+dstd.dsl  58318:             Switch (Arg1)
+Warning  3124 -                        ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  58435:                     Return (^^LPCB.ECDV.FAN2) /* \_SB_.PCI0.LPCB.ECDV.FAN2 */
+Warning  3134 -                   Statement is unreachable ^ 
+
+dstd.dsl  58471:         Method (WMBC, 3, Serialized)
+Remark   2146 -                    ^ Method Argument is never used (Arg0)
+
+dstd.dsl  58480:                 Switch (Arg1)
+Warning  3124 -                            ^ Switch expression is not a static Integer/Buffer/String data type, defaulting to Integer
+
+dstd.dsl  58672:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+Remark   2120 -                        ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  58981:                 Method (_BIF, 0, NotSerialized)  // _BIF: Battery Information
+Remark   2120 -                            ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  59014:                 Method (_BST, 0, NotSerialized)  // _BST: Battery Status
+Remark   2120 -                            ^ Control Method should be made Serialized (due to creation of named objects within)
+
+dstd.dsl  59181:                     Local0 = PWRS /* \PWRS */
+Warning  3144 -                          ^ Method Local is set but never used (Local0)
+
+dstd.dsl  59852:             Name (_PLD, Package (0x01)  // _PLD: Physical Location of Device
+Optimize 1039 -                                     ^ Integer optimized to single-byte AML opcode (One)
+
+dstd.dsl  59856:                     PLD_IgnoreColor        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  59857:                     PLD_Red                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59858:                     PLD_Green              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59859:                     PLD_Blue               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59860:                     PLD_Width              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59861:                     PLD_Height             = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59862:                     PLD_UserVisible        = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  59863:                     PLD_Dock               = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59864:                     PLD_Lid                = 0x1,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (One)
+
+dstd.dsl  59869:                     PLD_GroupOrientation   = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59870:                     PLD_GroupToken         = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59871:                     PLD_GroupPosition      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59872:                     PLD_Bay                = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59873:                     PLD_Ejectable          = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59874:                     PLD_EjectRequired      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59875:                     PLD_CabinetNumber      = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59876:                     PLD_CardCageNumber     = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59877:                     PLD_Reference          = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59878:                     PLD_Rotation           = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+dstd.dsl  59879:                     PLD_Order              = 0x0,
+Optimize 1039 -    Integer optimized to single-byte AML opcode ^  (Zero)
+
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20180629
+Copyright (c) 2000 - 2018 Intel Corporation
+
+ASL Input:     dstd.dsl - 59889 lines, 1868208 bytes, 28638 keywords
+AML Output:    dstd.aml - 266197 bytes, 4476 named objects, 24162 executable opcodes
+Hex Dump:      dstd.hex - 2496016 bytes
+
+Compilation complete. 0 Errors, 90 Warnings, 161 Remarks, 603 Optimizations
